@@ -7,8 +7,6 @@ Nesse projeto vamos desenvolver uma aplicação de clima, consumindo dados de um
 A aplicação de clima terá uma página inicial que nos pedirá que coloquemos uma cidade para que nos mostre os dados climáticos dessa cidade.
 Já adicionada uma cidade a aplicação não nos mostrará mais a página inicial mesmo que fechemos a página ou mesmo que atualizemos, isso é devido que a cidade que adicionamos será guardada no localStorage.
 
-Nesse projeto para conseguir realizar esse projeto foi utilizado fetch e localStorage.
+Nesse projeto para conseguir realizar esse projeto foi utilizado fetch e localStorage
 
-Se gostou do projeto peço que se subscrevam e dêem like.
-
-LinkedIn: www.linkedin.com/in/lucinaldo-costa
+LinkedIn: https://www.linkedin.com/in/alef-silva-344b072a2/
