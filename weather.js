@@ -26,7 +26,7 @@ const weather = {
     units: "metric",
 }
 function temperaturaLocal(){
-    peticion = Get(`https://api.openweathermap.org/data/2.5/weather?q=${localStorage.getItem("city")}&appid=${weather.apiKey}&units=${weather.units}&lang=${weather.lang}`);
+    peticion = fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localStorage.getItem("city")}&appid=${weather.apiKey}&units=${weather.units}&lang=${weather.lang}`);
     peticion.then((res)=>res.json())
             .then((res)=>{
                 res
