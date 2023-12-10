@@ -37,7 +37,7 @@ function temperaturaLocal(){
                 windSpeed.innerHTML = `${res.wind.speed} km/h`;
                 city.innerHTML = `${res.name}`;
                 country.innerHTML = `${res.sys.country}`;
-                icons.src  = `./img/${res.weather[0].icon}.png`;
+                icons.src  = `./IMG/${res.weather[0].icon}.png`;
             });
 };
 window.addEventListener("load", ()=>{
